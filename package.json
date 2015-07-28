@@ -1,0 +1,19 @@
+{
+  "name": "vantage-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpartridge83/vantage-sequelize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpartridge83/vantage-sequelize/issues"
+  },
+  "homepage": "https://github.com/bpartridge83/vantage-sequelize"
+}
