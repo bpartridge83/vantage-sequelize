@@ -11,7 +11,7 @@ module.exports = function (vantage, options) {
 
       var self = this;
 
-      sequelize.query(command).then(function (response) {
+      pg.query(command).then(function (response) {
       	console.log('response');
       	console.log(response);
       	self.log(response);
