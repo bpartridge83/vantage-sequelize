@@ -15,7 +15,7 @@ module.exports = function (vantage, options) {
 
 			pg.query(command).spread(function (response, meta) {
 				self.log(response);
-				cb();
+				callback();
 			});
 
 		});
