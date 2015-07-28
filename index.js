@@ -8,10 +8,16 @@ module.exports = function (vantage, options) {
       callback();
     })
     .action(function (command, callback) {
+
       var self = this;
 
-      sequelize.query(command).then(function (results) {
-      	self.log(results);
+      sequelize.query(command).then(function (response) {
+      	console.log('response');
+      	console.log(response);
+      	self.log(response);
+      }).catch(function (error) {
+      	console.error(error);
+      	self.error(response);
       });
 
     });
